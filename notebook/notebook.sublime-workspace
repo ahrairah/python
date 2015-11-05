@@ -1,0 +1,822 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"use",
+				"usefullClass"
+			],
+			[
+				"usefull",
+				"usefullClass"
+			],
+			[
+				"le",
+				"length	String"
+			],
+			[
+				"oauthClient",
+				"oauthClientSec"
+			],
+			[
+				"oauthClie",
+				"oauthClientId"
+			],
+			[
+				"Lohnsteuer",
+				"Lohnsteuerermittlung"
+			],
+			[
+				"qs",
+				"qsumme"
+			],
+			[
+				"q",
+				"quersumme"
+			],
+			[
+				"K_",
+				"Konfession_Ehepartner"
+			],
+			[
+				"checkS",
+				"checkEmployeeSimplifiedUI"
+			],
+			[
+				"Hinzu",
+				"Hinzurechnungsbetrag_Jahr"
+			],
+			[
+				"Hinzurec",
+				"Hinzurechnungsbetrag_Monat"
+			],
+			[
+				"Freibetrag_",
+				"Freibetrag_Jahr"
+			],
+			[
+				"Freibetr",
+				"Freibetrag_Monat"
+			],
+			[
+				"_ch",
+				"_check"
+			],
+			[
+				"r",
+				"readfile	Read File Into Vector"
+			],
+			[
+				"user_pass",
+				"user_password"
+			],
+			[
+				"Beschäf",
+				"Beschäftigung"
+			],
+			[
+				"chkHil",
+				"chkHilfetexteSozialversicherung"
+			],
+			[
+				"_anv",
+				"_assertNotVisible"
+			],
+			[
+				"_aNV",
+				"_assertNotVisible"
+			],
+			[
+				"createEmployee",
+				"createEmployeeNew"
+			],
+			[
+				"Zusatzle",
+				"Zusatzleistungen"
+			],
+			[
+				"Gefahren",
+				"Gefahrentarif_SEPUI"
+			],
+			[
+				"healthIns",
+				"healthInsurance_input"
+			],
+			[
+				"additionalAmou",
+				"additionalAmountMonth"
+			],
+			[
+				"Hinzure",
+				"Hinzurechnungsbetrag_Jahr"
+			],
+			[
+				"Hinzurech",
+				"Hinzurechnungsbetrag_Jahr"
+			],
+			[
+				"Freibetrag",
+				"Freibetrag_Monat"
+			],
+			[
+				"subst",
+				"substring(${0:indexA})	String"
+			],
+			[
+				"Beschäft",
+				"Beschäftigungsart"
+			],
+			[
+				"Resturlaub",
+				"ResturlaubVJ"
+			],
+			[
+				"Beschä",
+				"Beschäftigung"
+			],
+			[
+				"Beschäfti",
+				"Beschäftigung"
+			],
+			[
+				"catc",
+				"cached	Event"
+			],
+			[
+				"Unterhaltspf",
+				"UnterhaltspflichtigePersonen"
+			],
+			[
+				"Arbeitgeber",
+				"Arbeitgeberanteil"
+			],
+			[
+				"ÜBe",
+				"Überweisung"
+			],
+			[
+				"Ü",
+				"Übernehmen"
+			],
+			[
+				"pkwPri",
+				"pkwPrivatPauschMA"
+			],
+			[
+				"Beschäftigun",
+				"Beschäftigungsart"
+			],
+			[
+				"else",
+				"else"
+			],
+			[
+				"childbir",
+				"childbirthdate"
+			],
+			[
+				"pay",
+				"payrollMonth"
+			],
+			[
+				"get",
+				"getPayrollMonth"
+			],
+			[
+				"payro",
+				"payrollMonthNext"
+			],
+			[
+				"inc",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "notebook.py",
+			"settings":
+			{
+				"buffer_size": 694,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"last_filter": "remove pa",
+		"selected_items":
+		[
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Discover Packages"
+			],
+			[
+				"pyyth",
+				"Build With: Python - Syntax Check"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"packagees",
+				"Package Control: List Packages"
+			],
+			[
+				"discp",
+				"Package Control: Discover Packages"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/tmeyer/Desktop/py/notebook"
+	],
+	"file_history":
+	[
+		"/C/Users/tmeyer/Desktop/py/package/usefull.py",
+		"/C/Users/tmeyer/Desktop/py/test.py",
+		"/C/Users/tmeyer/Desktop/test.py",
+		"/C/Users/tmeyer/Desktop/<frozen importlib._bootstrap>",
+		"/C/Users/tmeyer/Desktop/useful.py",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/helpers/PartnerApi.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_partner_api_001_OAuth.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/helpers/Employee.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/helpers/Company.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_040_NeuerAbrechnungsassistent.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_suites/sepui_acceptancetests.suite",
+		"/C/Users/tmeyer/Downloads/Kivy-1.9.0-py3.4-win32-x64/kivy34/setup.py",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/Includes.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/helpers/Helptexts.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_041_HilfetexteEinfacherArbeitnehmer.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/helpers/GlobalVariables.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_009_Fehlzeiten.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/helpers/Authentication.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/testscript.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/helpers/CommonFunctions.sah",
+		"/C/Program Files/Sublime Text 3/sublime.py",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/User/python.sublime-build",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/SublimePythonIDE/SublimePython.sublime-settings",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el-sep-subl.sublime-project",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_043_Privatinsolvenz.sah",
+		"/Z/Interne Tests/Tmeyer/Überarbeitete CI-Skripte/functions.ps1",
+		"/C/Projects/svnr/rvnr.hpp",
+		"/Z/Interne Tests/Tmeyer/Überarbeitete CI-Skripte/chkSemaphore_org.ps1",
+		"/Z/Interne Tests/Tmeyer/Überarbeitete CI-Skripte/Testautomation.ps1",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/el_019_1_Genehmigungen.sah",
+		"/Z/Interne Tests/Tmeyer/Überarbeitete CI-Skripte/settings.xml",
+		"/Z/Interne Tests/Tmeyer/chkSemaphore_org.ps1",
+		"/Z/Interne Tests/Tmeyer/Überarbeitete CI-Skripte/testscripte ziehen.txt",
+		"/Z/Interne Tests/Tmeyer/Überarbeitete CI-Skripte/chkSemaphore.ps1",
+		"/Z/Interne Tests/Tmeyer/Überarbeitete CI-Skripte/weitere Anpassung/Testautomation.ps1",
+		"/Z/Interne Tests/Tmeyer/Überarbeitete CI-Skripte/weitere Anpassung/functions.ps1",
+		"/Z/Interne Tests/Tmeyer/Testautomation.ps1",
+		"/Z/Interne Tests/Tmeyer/functions.ps1",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_033_ArbeitnehmerMassenanlage.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/el_033_ArbeitnehmerMassenanlage.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_005_Firmendaten.sah",
+		"/Z/Interne Tests/Tmeyer/chkSemaphore.ps1",
+		"/Z/Interne Tests/Tmeyer/prepareVM.ps1",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/el_016_AutomatischeAbrechnung.sah",
+		"/C/Projects/svnr/human.hpp",
+		"/C/Projects/svnr/human.cpp",
+		"/C/Projects/SFML-Game-Development-Book-master/01_Intro/Include/Book/Game.hpp",
+		"/C/Projects/SFML-Game-Development-Book-master/01_Intro/Source/Game.cpp",
+		"/C/Projects/svnr/svnr.cpp",
+		"/C/Projects/SFML-Game-Development-Book-master/01_Intro/Source/Main.cpp",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/el_001_Registrierung.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_035_RückwirkenderU1Antrag.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_034_PrüfungU1.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_023_Krankenkassen.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_044_AbrechnungLoginScreen.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_008_Korrekturen.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/helpers/License.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_012_AusUndWiedereintritt.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_016_AutomatischeAbrechnung.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_020_zusätzlicheLeistungen.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_022_Mutterschutz.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_018_AbzügeZuschläge.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_018_AbzügeZuschläge_alt.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_042_ZusätlicheLeistungenEinfacherArbeitnehmer.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/helpers/Register.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_017_Schnittstellen.sah",
+		"/Z/Versionen/automatisierte installation/Installation.ps1",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/el_004_Testverlängerung.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_049_VortragswerteKompakterMitarbeiter.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/el_012_AusUndWiedereintritt.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_046_Testabrechnungsmail.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/helpers/Navigation.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_048_AzubiÜbernahme.sah",
+		"/C/Users/tmeyer/Dropbox/Projects/SFML_Game_Development_Book/SFML_Game_Development_Book/Main.cpp",
+		"/C/Users/tmeyer/Dropbox/Projects/SFML_Game_Development_Book/SFML_Game_Development_Book/Game.hpp",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_047_Konzerneintritt.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_suites/s1_MailVersand.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_suites/s1_acceptancetests.suite",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_045_BSLoginScreen.sah",
+		"/P/Automation/SahiProjects/userdata_el_pro/scripts/el_test_cases/sep_045_Testabrechnungsmail.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_suites/test_MailVersand.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el-sep-subl.sublime-project",
+		"/P/Automation/SahiProjects/userdata_el/scripts/helpers/Company.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/helpers/Authentication.sah",
+		"/C/SageQA/TestComplete/PW/Script/LowLevelFunctions.sd",
+		"/C/Projects/SFML-Game-Development-Book-master/02_Resources/Include/Book/ResourceHolder.inl",
+		"/C/Projects/SFML-Game-Development-Book-master/02_Resources/Include/Book/ResourceHolder.hpp",
+		"/P/Automation/SahiProjects/userdata_el/scripts/helpers/Employee.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/sep_023_Krankenkassen.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/helpers/CommonFunctions.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/sep_042_ZusätlicheLeistungenEinfacherArbeitnehmer.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/sep_006_Mitarbeiterdaten.sah",
+		"/C/Users/tmeyer/Downloads/wxWidgets-3.0.2/autogen.sh",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/sep_043_Privatinsolvenz.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/sep_041_HilfetexteEinfacherArbeitnehmer.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/helpers/Helptexts.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_suites/sepui_acceptancetests.suite",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/sep_040_NeuerAbrechnungsassistent.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/Includes.sah",
+		"/P/Automation/SahiProjects/userdata_soo/scripts/helpers/Registration.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/sep_018_AbzügeZuschläge.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/el_012_AusUndWiedereintritt.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/helpers/Navigation.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/sep_024_ProErfassung.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/helpers/License.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/apis.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/el_009_Fehlzeiten.sah",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/el_013_KostenstellenKostenträger.sah",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/JSLint/JSLint.sublime-settings",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/User/JSLint.sublime-settings",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/Arbeitnehmer.txt",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/el_027_PasswortVergessen.sah",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/JSHint/README.md",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/sep_022_Mutterschutz.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/el_003_Paketwechsel.sah",
+		"/C/Users/tmeyer/AppData/Roaming/Sublime Text 3/Packages/Javascript Beautify/Default (Windows).sublime-keymap",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/el_004_Testverlängerung.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/el_022_Mutterschutz.sah",
+		"/P/Automation/SahiProjects/userdata_el/scripts/el_test_cases/sep_007_Lohnabrechnung.sah"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"P:\\Automation\\SahiProjects\\userdata_el_pro\\scripts",
+			"P:\\Automation\\SahiProjects\\userdata_el_pro\\scripts\\el_test_cases",
+			"P:\\Automation\\SahiProjects\\userdata_el_pro\\scripts",
+			"P:\\Automation\\SahiProjects\\userdata_el_pro\\scripts\\helpers",
+			"P:\\Automation\\SahiProjects\\userdata_el_pro\\scripts\\el_test_cases",
+			"P:\\Automation\\SahiProjects\\userdata_el_pro\\scripts",
+			"P:\\Automation\\SahiProjects\\userdata_el\\scripts\\el_test_cases"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"auto",
+			"}",
+			"{",
+			"accounting2",
+			"/api/",
+			"api",
+			"6",
+			"confession",
+			");\n",
+			"companyNumber",
+			"$ClaireGrube",
+			"createEmployeeSi",
+			"createEmployeeSim",
+			"konfes",
+			"SimplifiedEmployee",
+			"checkEmployeeSi",
+			"checkEmployeeS",
+			"chkEmployee",
+			"Urlaub bezahlt",
+			"Krankengeldbezug",
+			"\");\n",
+			"Krankengeld",
+			"_exists(_link(\"/Bearbeiten",
+			"_exists(_link(\\\"/Bearbeiten",
+			",0",
+			"\"));\n",
+			"getM",
+			"login",
+			"avag",
+			", $helpTexts",
+			"submit(\"Men",
+			"submit(\"Menü",
+			"_submit(\"Menü\")",
+			"accounting2",
+			"accountin2",
+			"entry",
+			";\n",
+			"menü",
+			"chkTestcalculationMail",
+			"setEmployeePayment($employee)",
+			"checkEmployeeSi",
+			"accounting2",
+			"accountin2",
+			"replaceSpa",
+			"checkEmpl",
+			"employee_hourlyrate",
+			"employee",
+			"employee_salary",
+			"employee",
+			"checkEmployeeSEP",
+			"checkEmployee",
+			"chkEmployee",
+			"create",
+			"value",
+			"field",
+			"replace",
+			"createCompany",
+			"EmoloyeeSimp",
+			"function replace",
+			"replace",
+			"chkPurchaseWithInvalidData",
+			"navTo(\"Menü",
+			"common",
+			" === true",
+			"setAbsence",
+			"chkAbsence",
+			"setAbsenceDragDrop",
+			"setAbs",
+			"setAbsenceDra",
+			"checkEmployee",
+			"checkEmplo",
+			"createEmployeeNew",
+			"chkEmployee",
+			"createCompany",
+			"startCa",
+			"chkCalcErr",
+			"chkCalc",
+			"split",
+			"verwe",
+			"navigateToEstimation",
+			"();\n",
+			"daten",
+			"$daten",
+			"save",
+			"$",
+			"_getText",
+			"data_type_input\")",
+			"data",
+			"replaceSpace",
+			"_focus",
+			")",
+			"_isVisible(",
+			"_assert(",
+			"_assert",
+			"_assert(",
+			"    \n",
+			"_assert",
+			"chkre",
+			"/accountin2?type=estimation",
+			"createIndividualWages",
+			"$employee.Idnr",
+			".IdNr.generateTaxId()",
+			"IdNr",
+			"idnr",
+			"createEmployee",
+			" + Support",
+			"console",
+			"createRegister",
+			"createEmployeeSimplifiedUi",
+			"=== true",
+			"childbirthdate",
+			"ctrl+b",
+			"payrollMonth",
+			"PayrollMonth",
+			"payrollMonth",
+			"daytype",
+			"_include"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"]",
+			"[",
+			"Urlaub",
+			"Krankengeld",
+			"$employee.IdNr",
+			".Idnr"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "notebook.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								694,
+								694
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 178.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python 3/Python3.sublime-build",
+	"project": "notebook.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sepui_acc",
+				"scripts\\el_test_suites\\sepui_acceptancetests.suite"
+			],
+			[
+				"c",
+				"scripts\\helpers\\CommonFunctions.sah"
+			],
+			[
+				"sep_043",
+				"scripts\\el_test_cases\\sep_043_Privatinsolvenz.sah"
+			],
+			[
+				"common",
+				"scripts\\helpers\\CommonFunctions.sah"
+			],
+			[
+				"company",
+				"scripts\\helpers\\Company.sah"
+			],
+			[
+				"authe",
+				"helpers\\Authentication.sah"
+			],
+			[
+				"employee",
+				"helpers\\Employee.sah"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 308.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
