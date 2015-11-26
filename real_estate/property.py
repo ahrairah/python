@@ -50,4 +50,4 @@ class Apartment(Property):
         parent_init.update({"laundry": laundry, "balcony": balcony})
         return parent_init
 
-    prompt_init = staticmethod(Property.prompt_init)
+    prompt_init = staticmethod(Property.prompt_init())
