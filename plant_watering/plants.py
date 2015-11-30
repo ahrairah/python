@@ -4,17 +4,21 @@ last_id = 0
 
 
 class Plant:
-    def __init__(self, name, plant_type, **kwargs):
+    def __init__(self, name, plant_type, earth_humidity=0, slot=0, **kwargs):
         self.name = name
         self.plant_type = plant_type
         self.last_watered = ""
         global last_id
         last_id += 1
         self.id = last_id
+        self.earth_humidity = earth_humidity
+        self.slot = slot
         pass
 
     def match(self, filter_str):
-        """Nach Pflanzenbezeichnung oder -typ suchen."""
+        """Nach Pflanzenbezeichnung oder -typ suchen.
+        :param filter_str:
+        """
         return filter_str in self.name or filter_str in self.plant_type
 
 
@@ -52,3 +56,15 @@ class WindowShelf:
 class WateringSystem:
     def __init__(self):
         pass
+
+    def trigger_water(self, slot):
+        """Sollte gegebenen Anschluss wässern.
+        :param slot:
+        """
+        pass
+
+    def water_plants(self):
+        for plant in WindowShelf.plants:
+            if plant.earth_humidity < 50:
+                self.trigger_water(plant.slot)
+                plant.last_watered = date.today()
