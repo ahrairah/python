@@ -1,5 +1,5 @@
 # -*- coding: iso-8859-1 -*-
-import sys
+import sys, os
 from insurant import Insurant, calculate_cross_sum, calculate_checksum, calculate_weighting
 
 
@@ -15,18 +15,18 @@ class Menu:
         }
 
     def display_menu(self):
-        print("""Was möchten Sie tun?
+        print("""Was mÃ¶chten Sie tun?
         1. Neue Rentenversicherungsnummer generieren
         2. Bereits erstellte Nummern anzeigen
         3. RVNr in Datei schreiben
-        3. Programm beenden
+        4. Programm beenden
         Einfach die entsprechende Nummer angeben.
         """)
 
     def run(self):
         while True:
             self.display_menu()
-            choice = input("Wählen Sie bitte: ")
+            choice = input("WÃ¤hlen Sie bitte: ")
             action = self.choices.get(choice)
             if action:
                 action()
@@ -40,7 +40,7 @@ class Menu:
     def generate_insurance_number(self):
         birthdate = input("Bitte das Geburtsdatum eingeben (TT.MM.YYYY). ")
         self.insurant.set_birthdate(birthdate)
-        sex = input("Wählen Sie das Geschlecht. Geben Sie m für männlich und w für weiblich ein. ")
+        sex = input("WÃ¤hlen Sie das Geschlecht. Geben Sie m fÃ¼r mÃ¶nnlich und w fÃ¼r weiblich ein. ")
         self.insurant.set_sex(sex)
         surname = input("Bitte geben Sie den Namen ein. ")
         self.insurant.set_surname(surname)
@@ -54,9 +54,31 @@ class Menu:
     def show_insurance_numbers(self):
         print(self.insurance_numbers)
 
+    def check_path(self, path):
+        if os.access(path, os.F_OK):
+            if os.access(path, os.W_OK):
+                return True
+            else:
+                print("Sie besitzen nicht die nÃ¶tigen Schreibrechte fÃ¼r das Verzeichnis.")
+                return False
+        else:
+            createDir = input("Das Verzeichnis existiert nicht.\nSoll es angelegt werden? j/n ")
+            if createDir == "j":
+                os.mkdir(path)
+                return True
+            return False
+
     def write_file(self):
         path = input("Bitte geben Sie den Pfad an, in dem die Datei abgelegt werden soll. ")
-        f = file()
+        if self.check_path(path):
+            file = open('{0}/myfile.txt'.format(path), 'w+')
+            for insurance_number in self.insurance_numbers:
+                file.write(insurance_number + "\n")
+            file.close()
+        else:
+            print("\nAuf den Pfad: {0} kann nicht zugegriffen werden.\n".format(path))
+
+
 
 
 if __name__ == "__main__":
