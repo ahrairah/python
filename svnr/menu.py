@@ -31,7 +31,7 @@ class Menu:
             if action:
                 action()
             else:
-                print("Diese Option existiert nicht. ".format(choice))
+                print("Diese Option existiert nicht. ({0})\n".format(choice))
 
     def quit(self):
         print("Vielen Dank, dass Sie den RvNr-Generator verwendet haben.")
@@ -49,10 +49,11 @@ class Menu:
         checksum = calculate_checksum(calculate_cross_sum(calculate_weighting(self.insurant.number)))
         insurance_number = self.insurant.string + str(checksum)
         self.insurance_numbers.append(insurance_number)
-        print("Die Rentenversicherungsnummer lautet: " + insurance_number)
+        print("\nDie Rentenversicherungsnummer lautet: {0}\n".format(insurance_number))
 
     def show_insurance_numbers(self):
         print(self.insurance_numbers)
+        print("\n")
 
     def check_path(self, path):
         if os.access(path, os.F_OK):
@@ -71,10 +72,11 @@ class Menu:
     def write_file(self):
         path = input("Bitte geben Sie den Pfad an, in dem die Datei abgelegt werden soll. ")
         if self.check_path(path):
-            file = open('{0}/myfile.txt'.format(path), 'w+')
+            file = open('{0}/sozialversicherungsnummern.txt'.format(path), 'w+')
             for insurance_number in self.insurance_numbers:
                 file.write(insurance_number + "\n")
             file.close()
+            print("Datei wurde erfolgreich im gewünschten Pfad abgelegt.")
         else:
             print("\nAuf den Pfad: {0} kann nicht zugegriffen werden.\n".format(path))
 
