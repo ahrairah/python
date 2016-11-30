@@ -15,7 +15,7 @@ class Menu:
         }
 
     def display_menu(self):
-        print("""Was möchten Sie tun?
+        print("""Was moechten Sie tun?
         1. Neue Rentenversicherungsnummer generieren
         2. Bereits erstellte Nummern anzeigen
         3. RVNr in Datei schreiben
@@ -26,7 +26,7 @@ class Menu:
     def run(self):
         while True:
             self.display_menu()
-            choice = input("Wählen Sie bitte: ")
+            choice = input("Waehlen Sie bitte: ")
             action = self.choices.get(choice)
             if action:
                 action()
@@ -40,7 +40,7 @@ class Menu:
     def generate_insurance_number(self):
         birthdate = input("Bitte das Geburtsdatum eingeben (TT.MM.YYYY). ")
         self.insurant.set_birthdate(birthdate)
-        sex = input("Wählen Sie das Geschlecht. Geben Sie m für mönnlich und w für weiblich ein. ")
+        sex = input("Waehlen Sie das Geschlecht. Geben Sie m fuer maennlich und w fuer weiblich ein. ")
         self.insurant.set_sex(sex)
         surname = input("Bitte geben Sie den Namen ein. ")
         self.insurant.set_surname(surname)
@@ -59,7 +59,7 @@ class Menu:
             if os.access(path, os.W_OK):
                 return True
             else:
-                print("Sie besitzen nicht die nötigen Schreibrechte für das Verzeichnis.")
+                print("Sie besitzen nicht die noetigen Schreibrechte fuer das Verzeichnis.")
                 return False
         else:
             createDir = input("Das Verzeichnis existiert nicht.\nSoll es angelegt werden? j/n ")
